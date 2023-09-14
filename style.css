@@ -1,0 +1,600 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+    box-sizing: border-box;
+}
+
+.navbar{
+    height: 60px;
+    background-color: #0f1111;
+    color: white;
+    display: flex ;
+    align-items: center;
+    justify-content: space-evenly;
+} 
+
+.nav-logo{
+    height: 55px;
+    width: 120px;
+}
+
+.logo{
+    background-image: url("Amazon-Logo");
+    height: 50px;
+    width: 100%;
+    background-size: cover;
+}
+
+.border{
+    border: 1.5px solid transparent;
+}
+
+.border:hover{
+    border: 1.5px solid white;
+}
+
+.add-first{
+    color: #cccccc;
+    font-size: 0.9rem;
+    margin-left: 15px;
+}
+
+.add-secound{
+    font-size: 1rem;
+    margin-left: 3px ;
+}
+.add-icon{
+    display: flex;
+    align-items: center;
+}
+
+.nav-search{
+    display: flex;
+    justify-content: space-evenly ;
+    background-color: pink;
+    width: 600px;
+    height: 40px;
+    border-radius: 4px ;
+    margin-left: 10px;
+}
+
+.search-select{
+     background-color: #f3f3f3;
+     width: 50px;
+     text-align: center;
+     border-top-left-radius: 4px;
+     border-bottom-left-radius: 4px;
+     border: none;
+}
+
+.search-input{
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+}
+
+.search-icon{
+ width: 45px;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ font-size: 1.2rem;
+ background-color: rgba(255, 149, 0, 0.578);
+ border-top-right-radius: 4px;
+ border-bottom-right-radius: 4px;
+ color: #0f1111;
+}
+
+.nav-search:hover{
+    border: 2px solid orange;
+}
+
+span {
+    font-size: 0.7rem;
+
+}
+
+.nav-second{
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+
+.nav-cart i{
+    font-size: 30px;
+}
+
+.nav-cart{
+    font-size: 0.8rem;
+    font-weight: 700;
+
+}
+
+.panel{
+    height: 39px;
+    background-color: #222f3d ;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    justify-content:space-evenly;
+
+}
+
+.panel-ops p{
+    display: inline;
+    margin-left: 14px;
+} 
+
+.panel-ops{
+    width: 70%;
+    font-size: 0.9rem;
+    justify-content: space-between;
+}
+
+.panel-deals{
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+
+.hero-section{
+    background-image: url("hero-pic.png");
+    background-size: cover;
+    height: 280px;
+    display: flex;
+   justify-content: center;
+   align-items: flex-end;
+}
+.hero-msg{
+    color: black;
+    background-color: white;
+    height: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.85rem;
+    width: 80%;
+    margin-bottom: 20px;
+
+}
+
+.hero-msg a{
+    color: #007185;
+}
+
+.shop-section{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(200, 221, 228);
+   
+} 
+
+.box{
+    
+    height: 400px;
+    width: 24%;
+    background-color: white;
+    padding: 20px 0px 15px;
+    margin-top: 5px;
+    
+}
+
+.box-img{
+    height: 315px;
+    width: 250px;
+    margin-top: 5px;
+    margin-bottom: 2px;
+}
+.box-img>img{
+    height: 300px;
+    width: 250px;
+   
+}
+.box-content1{
+    margin-right: 10px;
+}
+.box-img2{
+    height: 300px;
+    width: 200px;
+   margin-bottom: 100px;
+}
+.box-img2>img{
+    height: 320px;
+    width: 300px;
+    margin-right: 10px;
+      
+}
+
+.box-img3{
+    height: 300px;
+    width: 250px;
+    margin-top: 5px;
+    margin-bottom: 2px;
+}
+.box-img3>img{
+    height: 290px;
+    width: 280px;
+    margin-right: 10px;
+}
+
+.movie-logo{
+    background-color: rgb(200, 221, 228);
+    height: 438px;
+    width: 1217px;
+
+}
+.movie-name{
+    margin-left: 500px;
+    color:  black;
+    font-style: inherit;
+}
+.movie-page{
+ 
+  height: 400px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-evenly;
+   
+ 
+    
+}
+.movie-page>.m1{
+  height: 400px;
+  width: 49%;
+
+ 
+}
+.movie-page>.m1>img{
+    height: 400px;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.movie-page>.m2{
+    height: 400px;
+    width: 49%;
+    
+  }
+  .movie-page>.m2>img{
+    height: 400px;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.Trolley-bag{
+    height: 370px;
+    width: 100%;
+    background-color: whitesmoke;
+    
+    
+}
+.trolley1{
+    margin-top: 7px;
+}
+.trolley{
+    height: 320px;
+    width: 100%;
+    display: flex;
+    margin-top: 15px;
+    background-color:  white;
+    margin-left: 0px;
+    display: flex;
+   justify-content: center;
+   
+}
+
+
+.trolley>.bag1>img{
+    height: 250px;
+    width: 250px;
+    
+    margin-top: 39px;
+}
+.trolley>.bag2>img{
+    height: 225px;
+    width: 200px;
+  
+    margin-top: 50px;
+}
+.trolley>.bag3>img{
+    height: 290px;
+    width: 250px;
+   
+    margin-top: 30px;
+}
+.trolley>.bag4>img{
+    height: 280px;
+    width: 330px;
+    
+    margin-top: 30px;
+}
+.trolley>.bag5>img{
+    height: 230px;
+    width: 240px;
+    margin-right: 80px;
+    margin-top: 50px;
+}
+.fashion{
+    background-color: whitesmoke;
+    height: 300px;
+}
+
+.fashion-hub{
+    height: 250px;
+    width: 99%;
+    display: flex;
+    margin-top: 10px;
+    background-color:  white;
+   margin-left: 5px;
+    display: flex;
+   justify-content: center;
+    justify-content: space-evenly;
+}
+.fashion-hub>.fas1>img{
+    height: 190px;
+    margin-top: 25px;
+}
+.Accessories{
+    background-color: whitesmoke;
+    height: 250px;
+}
+.computer{
+    height: 250px;
+    width: 99%;
+    display: flex;
+    margin-top: 10px;
+    background-color:  white;
+   margin-left: 5px;
+    display: flex;
+   justify-content: center;
+    justify-content: space-evenly;
+
+}
+.computer>.com1>img{
+    height: 190px;
+    margin-top: 25px;
+    
+}
+.computer>.com2>img{
+    height: 190px;
+    width: 180px;
+    margin-top: 25px;
+}
+.computer>.com3>img{
+    height: 190px;
+    width: 180px;
+    margin-top: 25px;
+}
+.computer>.com4>img{
+    height: 190px;
+    width: 190px;
+    margin-top: 25px;
+}
+.computer>.com5>img{
+    height: 190px;
+    width: 190px;
+    margin-top: 25px;
+}
+
+.Beauty-product{
+    background-color: whitesmoke;
+    height: 250px;
+    margin-top: 20px;
+    
+}
+.beauty-tip{
+    height: 250px;
+    width: 99%;
+    display: flex;
+    margin-top: 20px;
+    background-color:  white;
+   margin-left: 5px;
+    display: flex;
+   justify-content: center;
+    justify-content: space-evenly;
+
+}
+
+.beauty-tip>.beauty1>img{
+    height: 200px;
+    width: 150px;
+}
+
+.home-dec{
+    background-color: whitesmoke;
+    height: 270px;
+}
+.home-dec>.home>img{
+    margin-left: 100px;
+    margin-top: 10px;
+    
+}
+
+.Line{
+    font-size: larger;
+    font-weight: 700;
+    background-color: whitesmoke;
+    
+}
+
+.Items{
+   background-color: whitesmoke;
+    height: 470px;
+    width: 100%;
+    display: flex;
+   
+   
+}
+.Line>.Tv>img{
+    width: 80%;
+    height: 270px;
+    
+    margin-left: 10%;  
+    margin-top: 10%;
+    display: flex;
+   
+    justify-content: center;
+    justify-content: space-evenly;
+   
+   
+}
+
+
+.Saree>.saree1>img{
+    width: 120px;
+    height: 240px;
+    margin-top: 30px;
+    margin-left: 80px;
+}
+
+.Saree{
+    font-size: larger;
+    font-weight: 700;
+}
+
+.Sports>.Shoes>img{
+    width: 250px;
+    height: 180px;
+    margin-top: 50px;
+    margin-left: 18px;
+}
+
+.Store{
+    margin-top: 20px;
+    width: 70%;
+    height: 200px;
+    margin-left: 15px;
+   
+}
+    
+
+.Store>.men>img{
+    height: 130px;
+    width: 50%;
+}
+.Store>.women>img{
+    height: 135px;
+    margin-left: 180px;
+    margin-bottom: -100px;
+    margin-top: 3px;
+    width: 49%;
+}
+.Store>.boy>img{
+    height: 120px;
+    width: 50%;
+    
+}
+.Store>.girl>img{
+    height: 120px;
+    width: 50%;
+    margin-left: 180px;
+    /* margin-bottom: -100px; */
+}
+.girl{
+    position: relative;
+    bottom: 147px;
+    
+}
+.women{
+    position: relative;
+    bottom: 160px;
+
+}
+.boxs{
+    
+    height: 450px;
+    width: 100%;
+    background-color: white;
+    padding: 20px 0px 15px;
+    margin-top: 5px;
+    margin-right: 10px;
+    margin-left: 10px;
+   
+    
+}
+
+.Teddy{
+    height: 250px;
+    width: 100%;
+}
+
+.TeddyStore{
+    height: 200px;
+    width: 95%;
+   
+    margin-left: 30px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+.TeddyStore>.teddy1>img{
+    height: 190px;
+    margin-top: 5px;
+}
+
+.bottom{
+    height: 50px;
+    width: 100%;
+    background-color:rgb(72,87,105);
+    color: white;
+   
+   
+}
+
+.bottom>.Bot>h4>p{
+    text-align: center;
+    position: relative;
+    top: 15px;
+    
+    
+}
+
+.name{
+    height: 150px;
+    background-color: slateblue;
+    color: white;
+    
+}
+.name>.names>h2{
+    text-align: center;
+    position: relative;
+    top: 40px;  
+}
+.name>.names>h3{
+    text-align: center;
+    position: relative;
+    top: 40px;  
+}
+.name>.names>h4{
+    text-align: center;
+    position: relative;
+    top: 40px;  
+}
+.name>.names>h5{
+    text-align: center;
+    position: relative;
+    top: 40px;  
+}
+.name>.names>h6{
+    text-align: center;
+    position: relative;
+    top: 40px;  
+}
+.end{
+    height: 50px;
+   
+}
+.end>h2{
+    text-align: center;
+    position: relative;
+    top: 10px;
+}
+.end>h2:hover{
+    border: 2px solid black;
+    color: #f3f3f3;
+    background-color: black;
+    pointer-events: stroke;
+  
+}
