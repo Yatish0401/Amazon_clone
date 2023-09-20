@@ -593,12 +593,275 @@ span {
     
 }
 
+.bottom-last{
+    height: 300px;
+    background-color: #222f3d;
+    color: white;
+     
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+   
+}
+.drop>ul>li:hover{
+    text-decoration: underline;
+    
+      
+}
+
+.drops>h4{
+    margin-top: 30px;
+
+
+}
+
+.Social>h4{
+    margin-top: 30px;
+}
+.Money>h4{
+    margin-top: 30px;
+}
+.Help>h4{
+    margin-top: 30px;
+}
+
+.drop>ul>li{
+    margin-top: 10px;
+    text-decoration: none;
+    list-style: none;
+ 
+
+}
+
+.Country{
+    height: 100px;
+    background-color: black;
+    width: 100%;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+
+.half{
+    height: 100px;
+    width: 50%;
+    margin-bottom: 30px;
+    /* background-color: #cccccc; */
+   
+}
+.Half-part{
+    height: 100px;
+    width: 50%;
+    /* background-color: aqua; */
+    margin-bottom: 30px;
+    
+    
+}
+.Image>img{
+    height: 50px;
+    width: 100px;
+    margin-left: 400px;
+    margin-top: 50px;
+    
+}
+
+.language{
+    color: rgba(240, 248, 255, 0.55);
+    margin-top: 50px;
+    padding: px 18px 6px 8px;
+   
+
+    /* border: 1px solid white; */
+    
+}
+
+.India{
+   height: 70px;
+   width: 100%;
+   font-style: normal;
+   display: flex;
+  justify-content: center;
+  justify-content: space-between; 
+   background-color: black;
+   
+   color: rgba(245, 245, 245, 0.607);
+   
+
+}
+.raj{
+    margin-left: 100px;
+    margin-right: 100px;
+    /* letter-spacing: 10px; */
+    
+       
+
+}
+.raj>h5>p{
+   word-spacing: 30px;
+   /* font-size: small; */
+   font-weight: 100;
+
+}
+.language i{
+    color: rgba(255, 255, 255, 0.616);
+    padding: 8px 18px 10px 10px;
+    border: 1px solid white;
+    border-radius: 5%;
+    
+}
+.Review{
+    height: 120px;
+    background-color:rgb(72,87,105);
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    color: whitesmoke;
+    /* font-weight: 100; */
+}
+
+.books{
+    height: 80px;
+    width: 20%;
+    /* background-color: #222f3d; */
+    /* display: flex;
+    justify-content:center;
+    align-items: center; */
+}
+.bookes{
+    height: 80px;
+    width: 20%;
+    margin-left: 20px;
+    /* background-color: #222f3d; */
+    /* display: flex;
+    justify-content:center;
+    align-items: center; */
+}
+
+.book>p{
+    margin-top: 15px ;
+    margin-left: 80px;
+    margin-right: 70px;
+    font-style: normal;
+    font-weight: 100;
+}
+.book1>p{
+    margin-left: 30px;
+    margin-right: 50px;
+    font-style: normal;
+    font-weight: 100;
+}
+.book2>p{
+    margin-top: 15px ;
+    margin-left: 70px;
+    margin-right: 90px;
+    font-style: normal;
+    font-weight: 100;
+}
+.book3>p{
+    margin-top: 15px ;
+    margin-left: 60px;
+    margin-right: 70px;
+    font-style: normal;
+    font-weight: 100;
+}
+.book4>p{
+    margin-top: 15px ;
+    margin-left: 40px;
+    margin-right: 70px;
+    font-style: normal;
+    font-weight: 100;
+}
+.book5>p{
+    margin-top: 15px ;
+    margin-left: 50px;
+    margin-right: 80px;
+    font-style: normal;
+    font-weight: 100;
+}
+.book6>p{
+    margin-top: 15px ;
+    margin-left: 40px;
+    margin-right: 30px;
+    font-style: normal;
+    font-weight: 100;
+}
+.book2>p:hover{
+    text-decoration: underline;
+}
+.book1>p:hover{
+    text-decoration: underline;
+}
+.book>p:hover{
+    text-decoration: underline;
+}
+.book3>p:hover{
+    text-decoration: underline;
+}
+.book4>p:hover{
+    text-decoration: underline;
+}
+.book5>p:hover{
+    text-decoration: underline;
+}
+.book6>p:hover{
+    text-decoration: underline;
+}
+
+.privacy{
+    height: 20px;
+    background-color:rgb(72,87,105);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    word-spacing: 30px;
+    color: whitesmoke;
+}
+
+.notice>p:hover{
+    text-decoration: underline;
+
+}
+.Amazon{
+    height: 30px;
+    background-color: rgb(72,87,105);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 100;
+    color: whitesmoke;
+}
+.cloud{
+    height: 80px;
+    width: 20%;
+    /* background-color: #255283; */
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+.audio{
+    height: 80px;
+    width: 20%;
+    /* background-color: #187ae2; */
+}
+.digital{
+    height: 80px;
+    width: 20%;
+    /* background-color: #20ad25; */
+}
+.cell{
+    height: 80px;
+    width: 20%;
+    /* background-color: #dc9e31; */
+}
+
 .name{
     height: 150px;
     background-color: slateblue;
     color: white;
+    width: 100%;
     
 }
+
 .name>.names>h2{
     text-align: center;
     position: relative;
